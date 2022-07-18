@@ -79,7 +79,7 @@ export const projects = [
         name:"Foodie Mobile App",
         desc:"",
         info:"",
-        src:"https://youtu.be/Nua2b9-k3RY",
+        src:"https://www.youtube.com/embed/Nua2b9-k3RY",
         tools:[
             {
                 id:1,
@@ -98,6 +98,10 @@ export const projects = [
                 name:"Git"
             }
         ]
+    },
+    {
+        id:4,
+        name:"Game Review App",
     },
     {
         id:4,
