@@ -35,5 +35,105 @@ export const projects = [
                 name:'GIT'
             }
         ]
+    },
+    {
+        id:2,
+        name:"Ecommerce Web application",
+        desc:"",
+        info:"",
+        src:"https://sportsjersey.vercel.app/",
+        tools:[
+            {
+                id:1,
+                name:"React Js"
+            },
+            {
+                id:2,
+                name:"MySQL"
+            },
+            {
+                id:3,
+                name:"Spring-Boot"
+            },
+            {
+                id:4,
+                name:"Redux"
+            },
+            {
+                id:5,
+                name:"Mpesa Daraja Api"
+            },
+            {
+                id:6,
+                name:"Cloudinary "
+            },
+            {
+                id:7,
+                name:"Heroku"
+            }
+
+        ]
+    },
+    {
+        id:3,
+        name:"Foodie Mobile App",
+        desc:"",
+        info:"",
+        src:"https://youtu.be/Nua2b9-k3RY",
+        tools:[
+            {
+                id:1,
+                name:"React Native"
+            },
+            {
+                id:2,
+                name:"Redux"
+            },
+            {
+                id:3,
+                name:"Axios"
+            },
+            {
+                id:4,
+                name:"Git"
+            }
+        ]
+    },
+    {
+        id:4,
+        name:"Musically Music Streaming App",
+        src:"https://musically2.herokuapp.com/",
+        desc:"",
+        info:"",
+        tools:[
+            {
+                id:1,
+                name:"PHP"
+            },
+            {
+                id:2,
+                name:"JavaScript"
+            },
+            {
+                id:3,
+                name:'HTML'
+            },
+            {
+                id:4,
+                name:"CSS"
+            },
+            {
+                id:5,
+                name:"MYSQL"
+            },
+            {
+                id:6,
+                name:"Heroku"
+            },
+            {
+                id:7,
+                name:"GIT"
+            }
+        ]
     }
 ];

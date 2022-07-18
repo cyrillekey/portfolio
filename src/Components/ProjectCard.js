@@ -23,7 +23,6 @@ const ProjectCard = ({
             <Link
               to={`/project/${id}`}
               class="btn btn--med btn--theme dynamicBgClr"
-              target="_blank"
               >View</Link
             >
           </div>
