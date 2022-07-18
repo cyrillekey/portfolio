@@ -12,7 +12,7 @@ const Header = () => {
             className="header__logo-img"
           />
         </div>
-        <span class="header__logo-sub">John Doe</span>
+        <span class="header__logo-sub">Cyrille Otieno</span>
       </div>
       <div class="header__main">
         <ul class="header__links">
