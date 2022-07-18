@@ -1,0 +1,39 @@
+export const projects = [
+    {
+        id:1,
+        name:'Betpoa Web Betting Application',
+        desc:"",
+        info:"",
+        src:"https://betp.herokuapp.com",
+        tools:[
+            {
+                id:1,
+                name:'PHP',
+            },
+            {
+                id:2,
+                name:'MySQL',
+            },
+            {
+                id:3,
+                name:'Heroku'
+            },
+            {
+                id:4,
+                name:'CSS',
+            },
+            {
+                id:5,
+                name:'HTML'
+            },
+            {
+                id:6,
+                name:'JavaScript'
+            },
+            {
+                id:7,
+                name:'GIT'
+            }
+        ]
+    }
+];
