@@ -43,7 +43,7 @@ export const projects = [
         name:"Ecommerce Web application",
         desc:"Sports Jersey is a Web application developed with React Js with PWA support and consumes a custom Spring-boot backend for the api. The application allows users to buy goods from a sports attire Shop.",
         info:"",
-        src:"https://sportsjersey.vercel.app/s",
+        src:"https://sportsjersey.vercel.app/",
         git:"https://github.com/cyrillekey/Basketball-frontend",
         tools:[
             {
@@ -106,7 +106,7 @@ export const projects = [
     {
         id:4,
         name:"Game Review App",
-        src:"",
+        src:"https://www.youtube.com/emdeb/cd_tn9bWbtk",
         desc:"A cross-platform application that consumes the RAWG.io API To display information and Reviews About Games as well as New67 api to Display gaming related news",
         info:"",
         git:"https://github.com/cyrillekey/gamereview",
