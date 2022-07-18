@@ -20,7 +20,7 @@ const Introduction = ({
           </p>
         </div>
         <div class="home-hero__cta">
-          <Link to={link} class="btn btn--bg">{cta}</Link>
+          <a href={link} class="btn btn--bg" target="_blank" rel="noreferrer">{cta}</a>
         </div>
       </div>
       <div class="home-hero__socials">

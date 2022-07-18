@@ -11,18 +11,22 @@ const SingleProject = () => {
   const [project,setProject ]= React.useState();
   React.useEffect(()=>{
     let id = params.id;
+    console.log(id)
+    let temp = projects.find(project=>project.id == id);
+    setProject(temp);
   
-    setProject(projects[id]);
   },[]);
   return (
     <>
     <Header
     />
+    
     <Introduction
     title={project?.name ?? ''}
     link={project?.src ?? ''}
     cta="Live Link"
-    key={project.id}
+    key={project?.id}
+    desc={project?.desc}
     />
     <ProjectDesc project={project}/>
     <Footer/>

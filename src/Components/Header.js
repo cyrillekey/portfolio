@@ -1,19 +1,22 @@
 import React from 'react'
-
+import logo from '../assets/jpeg/25401754.png';
+import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header class="header">
     <div class="header__content">
+      <Link to="/">
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
           <img
-            src="./assets/png/john-doe.png"
+            src={logo}
             alt="Cyrille"
             className="header__logo-img"
           />
         </div>
         <span class="header__logo-sub">Cyrille Otieno</span>
       </div>
+      </Link>
       <div class="header__main">
         <ul class="header__links">
           <li class="header__link-wrapper">

@@ -106,7 +106,7 @@ export const projects = [
     {
         id:4,
         name:"Game Review App",
-        src:"https://www.youtube.com/emdeb/cd_tn9bWbtk",
+        src:"https://www.youtube.com/embed/cd_tn9bWbtk",
         desc:"A cross-platform application that consumes the RAWG.io API To display information and Reviews About Games as well as New67 api to Display gaming related news",
         info:"",
         git:"https://github.com/cyrillekey/gamereview",

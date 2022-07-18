@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 const ProjectDesc = ({
     project
 }) => {
@@ -9,16 +9,17 @@ const ProjectDesc = ({
         <div class="project-details__content">
           <div class="project-details__showcase-img-cont">
             <iframe
-              src={project.src}
+              src={project?.src}
               alt="Project Image"
               class="project-details__showcase-img"
+              title={project?.name}
             />
           </div>
           <div class="project-details__content-main">
             <div class="project-details__desc">
-              <h3 class="project-details__content-title">{project.title}</h3>
+              <h3 class="project-details__content-title">{project?.title}</h3>
               <p class="project-details__desc-para">
-               {project.info}
+               {project?.info}
               </p>
               <p class="project-details__desc-para">
                 
@@ -28,22 +29,24 @@ const ProjectDesc = ({
               <h3 class="project-details__content-title">Tools Used</h3>
               <div class="skills">
                 {
-                    project.tools.map((tool)=>(<div class="skills__skill" key={tool.id}>{tool.name}</div>))
+                    project?.tools.map((tool)=>(<div class="skills__skill" key={tool.id}>{tool.name}</div>))
                 }
               </div>
             </div>
             <div class="project-details__links">
               <h3 class="project-details__content-title">See Live</h3>
               <a
-                href="#"
+                href={project?.src ?? "#"}
                 class="btn btn--med btn--theme project-details__links-btn"
                 target="_blank"
+                rel='noreferrer'
                 >Live Link</a
               >
               <a
-                href="#"
+                href={project?.git ?? "#"}
                 class="btn btn--med btn--theme-inv project-details__links-btn"
                 target="_blank"
+                rel='noreferrer'
                 >Code Link</a
               >
             </div>

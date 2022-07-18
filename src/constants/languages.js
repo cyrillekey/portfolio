@@ -30,5 +30,25 @@ export const languages = [
     {
         id:8,
         name:"Node Js"
+    },
+    {
+        id:9,
+        name:"HTML"
+    },
+    {
+        id:10,
+        name:"WebOs"
+    },
+    {
+        id:11,
+        name:"GIT"
+    },
+    {
+        id:12,
+        name:"MySQL"
+    },
+    {
+        id:13,
+        name:"Firebase"
     }
 ];
