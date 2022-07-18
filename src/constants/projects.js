@@ -138,7 +138,7 @@ export const projects = [
         ]
     },
     {
-        id:4,
+        id:5,
         name:"Musically Music Streaming App",
         src:"https://musically2.herokuapp.com/",
         desc:"Musicaly Is A music streaming web application with platist capability that allows users to listen to their favourite artists",
@@ -163,6 +163,53 @@ export const projects = [
             {
                 id:5,
                 name:"MYSQL"
+            },
+            {
+                id:6,
+                name:"Heroku"
+            },
+            {
+                id:7,
+                name:"GIT"
+            }
+        ]
+    },
+    {
+        id:6,
+        name:"Foodie Courier App",
+        git:"https://github.com/foodie_courier",
+        src:"https://github.com/foodie_courier",
+        desc:"",
+        info:"",
+        tools:[]
+    },
+    {
+        id:7,
+        name:"Foodie Backend",
+        git:"https://github.com/cyrillekey/restaurant-backend",
+        src:"https://foodieback.herokuapp.com",
+        desc:"",
+        info:"",
+        tools:[
+            {
+                id:1,
+                name:"Spring-boot"
+            },
+            {
+                id:2,
+                name:"MySQL"
+            },
+            {
+                id:3,
+                name:"Cloudinary API"
+            },
+            {
+                id:4,
+                name:"DARAJA API"
+            },
+            {
+                id:5,
+                name:"Firebase"
             },
             {
                 id:6,

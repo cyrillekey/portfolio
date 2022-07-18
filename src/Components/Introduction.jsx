@@ -25,31 +25,31 @@ const Introduction = ({
       </div>
       <div class="home-hero__socials">
         <div class="home-hero__social">
-          <Link to="#" class="home-hero__social-icon-link">
+          <a href='https://github.com/cyrillekey' class="home-hero__social-icon-link" target="_blank" rel='noreferrer'>
             <img
               src={github}
               alt="icon"
               class="home-hero__social-icon"
             />
-          </Link>
+          </a>
         </div>
         <div class="home-hero__social">
-          <Link to="#" class="home-hero__social-icon-link">
+          <a href="https://twitter.com/cyrile_keith" class="home-hero__social-icon-link" target="_blank" rel='noreferrer'> 
             <img
               src={twitter}
               alt="icon"
               class="home-hero__social-icon"
             />
-          </Link>
+          </a>
         </div>
         <div class="home-hero__social">
-          <Link to="#" class="home-hero__social-icon-link">
+          <a href="https://www.linkedin.com/in/cyrill-otieno-032602169/" class="home-hero__social-icon-link" target="_blank" rel='noreferrer'>
             <img
               src={linkedin}
               alt="icon"
               class="home-hero__social-icon"
             />
-          </Link>
+          </a>
         </div>
       </div>
       <div class="home-hero__mouse-scroll-cont">
