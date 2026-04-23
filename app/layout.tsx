@@ -3,7 +3,7 @@ import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { Header } from "./components/Header";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/next";
 const cormorant = Cormorant_Garamond({
   variable: "--font-display",
   subsets: ["latin"],
@@ -31,6 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${cormorant.variable} ${dmSans.variable}`}>
+      <Analytics />
       <ThemeProvider>
         <body className="min-h-full flex flex-col antialiased">
           <div className="grain" />
