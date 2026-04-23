@@ -128,5 +128,33 @@
             "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_13.png"
         ],
         "video": "https://youtube.com/embed/rkvNDM5LyBI"
+    },
+    {
+        "thumbnail": "https://res.cloudinary.com/ddia14anf/image/upload/v1776946499/pesaway-poster.png",
+        "title": "Pesaway",
+        "id": "pesaway",
+        "type": "personal",
+        "category": "Fintech",
+        "summary": "",
+        "tech": [
+            "Next.js",
+            "Node.js"
+        ],
+        "link": "https://pesaway-admin.vercel.app",
+        "tags": [
+            "backend",
+            "Web"
+        ],
+        "github": "https://github.com/cyrillekey/pesaway-admin",
+        "features": [
+            "Payment Gateway",
+            "Invoicing",
+            "Expense tracing"
+        ],
+        "gradient": "from-amber-100 to-amber-200",
+        "description": "",
+        "objective": "",
+        "screenshots": [],
+        "video": ""
     }
 ]
