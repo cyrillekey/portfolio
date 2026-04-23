@@ -1,9 +1,10 @@
 import Link from "next/link";
-
+import allProjects from "./utils/allprojects.json";
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background">
-      <main className="pt-16 pb-20 px-6 md:px-12 lg:px-20 max-w-[1400px] mx-auto">
+      <main className="pt-20 pb-20 px-6 md:px-12 lg:px-20 max-w-[1400px] mx-auto">
         <section className="min-h-[70vh] flex flex-col lg:flex-row lg:items-end justify-between gap-12 lg:gap-0">
           <div className="max-w-2xl">
             <div className="overflow-hidden">
@@ -89,50 +90,31 @@ export default function Home() {
         <section id="projects" className="mt-24">
           <div className="flex items-end justify-between mb-10">
             <h2 className="font-display text-2xl font-light">Projects</h2>
-            <a
+            <Link
               href="/projects"
               className="text-sm link-underline text-foreground/60 hover:text-foreground"
             >
               View all projects →
-            </a>
+            </Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {[
-              {
-                title: "iFunza Platform",
-                summary:
-                  "SAAS for schools with automated fee collection and parent-teacher engagement.",
-                image: "bg-gradient-to-br from-amber-100 to-amber-200",
-                type: "professional",
-              },
-              {
-                title: "Property Management",
-                summary:
-                  "Property management system with automated invoicing and rent collection.",
-                image: "bg-gradient-to-br from-slate-100 to-slate-200",
-                type: "professional",
-              },
-              {
-                title: "BeanVerified Coffee",
-                summary:
-                  "Trace coffee back to source by scanning QR codes on packaging.",
-                image: "bg-gradient-to-br from-stone-100 to-stone-200",
-                type: "professional",
-              },
-              {
-                title: "Kanisa Connect",
-                summary:
-                  "Church management app for seats, events, and live streaming.",
-                image: "bg-gradient-to-br from-zinc-100 to-zinc-200",
-                type: "community",
-              },
-            ].map((project, i) => (
+            {allProjects.slice(0, 4).map((project, i) => (
               <div
                 key={project.title}
                 className="group block overflow-hidden border border-foreground/10 hover:border-foreground/25 transition-colors duration-500"
                 style={{ animationDelay: `${i * 100}ms` }}
               >
-                <div className={`aspect-video ${project.image}`} />
+                <div className="aspect-video bg-foreground/5">
+                  {project.thumbnail ? (
+                    <Image
+                      src={{ src: project.thumbnail, height: 400, width: 400 }}
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
+                  ) : (
+                    <div className={`w-full h-full ${project.gradient}`} />
+                  )}
+                </div>
                 <div className="p-6">
                   <div className="flex items-center gap-2 mb-2">
                     <span
@@ -146,6 +128,14 @@ export default function Home() {
                         ? "Professional"
                         : "Community"}
                     </span>
+                    {project.tags?.map((tag: string) => (
+                      <span
+                        key={tag}
+                        className={`text-[10px] px-2 py-0.5 rounded-full ${tag === "web" ? "bg-blue-100 text-blue-700 dark:bg-blue-900/40 dark:text-blue-300" : tag === "mobile" ? "bg-green-100 text-green-700 dark:bg-green-900/40 dark:text-green-300" : "bg-purple-100 text-purple-700 dark:bg-purple-900/40 dark:text-purple-300"}`}
+                      >
+                        {tag}
+                      </span>
+                    ))}
                   </div>
                   <h3 className="font-body text-lg font-medium mb-2 group-hover:text-accent transition-colors">
                     {project.title}
@@ -154,7 +144,7 @@ export default function Home() {
                     {project.summary}
                   </p>
                   <Link
-                    href="/projects"
+                    href={`/projects/${project.id}`}
                     className="text-sm link-underline text-foreground/70 hover:text-foreground"
                   >
                     View project →

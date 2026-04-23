@@ -1,0 +1,94 @@
+[
+    {
+        "id": "ifunza-platform",
+        "title": "iFunza Platform",
+        "category": "EdTech",
+        "type": "professional",
+        "tags": [
+            "web",
+            "backend",
+            "mobile"
+        ],
+        "summary": "SAAS for schools management with automated invoicing and fees collection.",
+        "description": "iFunza is a comprehensive SAAS platform designed for schools to manage their daily operations. It automates fee collection, provides real-time communication between parents and teachers, and offers a dedicated student dashboard for tracking progress and assignments.",
+        "tech": [
+            "Next.js",
+            "GraphQL",
+            "Node.js"
+        ],
+        "gradient": "from-amber-100 to-amber-200",
+        "thumbnail": "https://res.cloudinary.com/ddia14anf/image/upload/v1776924271/ifunza-project_d1g1ca.png",
+        "screenshots": [
+            "https://res.cloudinary.com/ddia14anf/image/upload/v1776924271/ifunza-project_d1g1ca.png"
+        ],
+        "link": "https://ifunza.com",
+        "video": null,
+        "objective": "Parent Teacher Engagement and smooth school management.",
+        "features": [
+            "School Management",
+            "Automated Invoicing",
+            "Fees Collection",
+            "Parent Teacher Engagement"
+        ],
+        "github": null
+    },
+    {
+        "id": "rentyme-landlord",
+        "title": "Rentyme Landlord",
+        "category": "Property Management",
+        "type": "professional",
+        "tags": [
+            "web",
+            "backend",
+            "mobile"
+        ],
+        "summary": "A property management system that allows landlords and agents to easily manage properties and tenants with automated invoicing and rent collection.",
+        "tech": [
+            "Next.js",
+            "GraphQL",
+            "Node.js"
+        ],
+        "gradient": "from-amber-100 to-amber-200",
+        "link": "https://landlord.rentyme.com",
+        "thumbnail": "https://res.cloudinary.com/ddia14anf/image/upload/v1776924834/rentyme-landlord.png",
+        "objective": "",
+        "features": [
+            "Property Management",
+            "Automated Invoicing",
+            "Rent Collection",
+            "Tenant Management",
+            "Lead Generation and Management"
+        ],
+        "github": null,
+        "video": null
+    },
+    {
+        "title": "iFunza Mobile App",
+        "category": "EdTech",
+        "type": "professional",
+        "tags": [
+            "mobile"
+        ],
+        "features": [
+            "Parent Teacher Engagement",
+            "Fees Payment",
+            "School Management"
+        ],
+        "objective": "Parent Teacher Engagement and smooth school management.",
+        "gradient": "from-amber-100 to-amber-200",
+        "thumbnail": "https://res.cloudinary.com/ddia14anf/image/upload/v1776924271/ifunza-project_d1g1ca.png",
+        "link": "https://play.google.com/store/apps/details?id=com.onesha.ifunza_cross",
+        "id": "ifunza-mobile-app",
+        "tech": [
+            "Flutter"
+        ],
+        "summary": "iFunza mobile app for parents and teachers.",
+        "description": "",
+        "github": null,
+        "video": null,
+        "screenshots": [
+            "https://play-lh.googleusercontent.com/Y4WyTI8TrQ-M7NnKxB8DGE9JJfuDpmRhy5vzp1Z03aAJlZV56uJmeoYlvOWHj6_up9g=w1052-h592-rw",
+            "https://play-lh.googleusercontent.com/jC-KuUCzVSGxf0wo0cd_biEb8gPvfV4g1PvhnJNBApRB4qjkinvY363sLkj9FxESGw=w1052-h592-rw"
+        ]
+    }
+]

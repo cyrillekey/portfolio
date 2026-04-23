@@ -23,6 +23,7 @@ export function Header() {
     { label: "Projects", href: "/#projects" },
     { label: "Experience", href: "/#experience" },
     { label: "Contact", href: "/contact" },
+    { label: "Resume", href: "/resume.pdf", download: true },
   ];
 
   return (
@@ -39,6 +40,7 @@ export function Header() {
           <Link
             key={item.label}
             href={item.href}
+            {...(item.download ? { download: true } : {})}
             className="link-underline text-xs lg:text-sm tracking-wide text-foreground/70 hover:text-foreground transition-colors"
           >
             {item.label}
@@ -165,6 +167,7 @@ export function Header() {
                   key={item.label}
                   href={item.href}
                   onClick={() => setMobileOpen(false)}
+                  {...(item.download ? { download: true } : {})}
                   className="font-display text-3xl text-foreground/80 hover:text-foreground transition-colors"
                   style={{
                     opacity: 1,
