@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import projects from "@/app/utils/allprojects.json";
 import Image from "next/image";
+import { ScreenshotImage } from "@/app/components/ScreenshotImage";
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -144,6 +145,14 @@ export default async function ProjectDetail({ params }: Props) {
                     </div>
                   ))}
                 </div>
+                <div className="mt-4">
+                  <ScreenshotImage
+                    images={project.screenshots.map((a, index) => ({
+                      src: a,
+                      alt: `Screenshot_${index + 1}`,
+                    }))}
+                  />
+                </div>
               </div>
             )}
 
@@ -183,7 +192,7 @@ export default async function ProjectDetail({ params }: Props) {
                 </div>
 
                 <h3 className="font-body text-lg font-medium mb-4">Links</h3>
-                <div className="space-y-3">
+                <div className="space-y-3 gap-y-3">
                   <a target="_blank" href={project.link}>
                     <button className="w-full px-4 py-2.5 bg-accent text-accent-foreground rounded-md hover:bg-accent/90 transition-colors text-sm font-medium">
                       View Demo
@@ -191,7 +200,7 @@ export default async function ProjectDetail({ params }: Props) {
                   </a>
                   {project.github && (
                     <a href={project.github}>
-                      <button className="w-full px-4 py-2.5 border border-foreground/20 rounded-md hover:bg-foreground/5 transition-colors text-sm font-medium">
+                      <button className="w-full px-4 py-2.5 border border-foreground/20 rounded-md hover:bg-foreground/5 transition-colors text-sm font-medium mt-2">
                         GitHub
                       </button>
                     </a>

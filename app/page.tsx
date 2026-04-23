@@ -262,7 +262,7 @@ export default function Home() {
       <footer className="px-6 md:px-12 lg:px-20 py-8 border-t border-foreground/5">
         <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-xs text-foreground/40">
-            © 2024 Cyrille Otieno. All rights reserved.
+            © {new Date().getFullYear()} Cyrille Otieno. All rights reserved.
           </p>
           <p className="text-xs text-foreground/40">Built with Next.js</p>
         </div>

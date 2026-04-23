@@ -135,7 +135,7 @@
         "id": "pesaway",
         "type": "personal",
         "category": "Fintech",
-        "summary": "",
+        "summary": "A payment gateway that uses your current bank account as a payment gateway removing the need to use a third party payment gateway.",
         "tech": [
             "Next.js",
             "Node.js"
@@ -153,8 +153,66 @@
         ],
         "gradient": "from-amber-100 to-amber-200",
         "description": "",
-        "objective": "",
+        "objective": "Unify kenyan payment services under one roof and make it easy for businesses to easily use their current account as a payment gateway",
         "screenshots": [],
         "video": ""
+    },
+    {
+        "id": "foodie-app",
+        "title": "Foodie App",
+        "summary": "Food ordering app",
+        "type": "personal",
+        "tech": [
+            "Flutter",
+            "Firebase"
+        ],
+        "category": "Food Delivery",
+        "thumbnail": "/projects/foodie-thumbnail-image.webp",
+        "link": "https://github.com/cyrillekey/foodie-app",
+        "tags": [
+            "mobile"
+        ],
+        "github": "https://github.com/cyrillekey/foodie-app",
+        "features": [
+            "Order Management",
+            "Order Tracking",
+            "Customer Support",
+            "Online Payment"
+        ],
+        "video": "https://youtube.com/embed/Nua2b9-k3RY",
+        "objective": "Implement food delivery app using react native with a custom backend in springboot",
+        "gradient": "from-amber-100 to-amber-200"
+    },
+    {
+        "id": "game-review",
+        "title": "Game Review",
+        "category": "Game Review",
+        "tech": [
+            "Flutter",
+            "Firebase"
+        ],
+        "features": [
+            "Post and review games"
+        ],
+        "objective": "A mobile application that allows users to post and review games.",
+        "thumbnail": "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_01.png",
+        "gradient": "from-amber-100 to-amber-200",
+        "link": "",
+        "video": "https://youtube.com/embed/cd_tn9bWbtk",
+        "github": "https://raw.githubusercontent.com/cyrillekey/gamereview",
+        "type": "personal",
+        "tags": [
+            "mobile"
+        ],
+        "summary": "A mobile application to track latest game releases and view game reviews, ratings and latest game news",
+        "screenshots": [
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_01.png",
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_02.png",
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_03.png",
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_04.png",
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_05.png",
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_06.png",
+            "https://raw.githubusercontent.com/cyrillekey/gamereview/main/flutter_07.png"
+        ]
     }
 ]

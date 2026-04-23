@@ -16,7 +16,13 @@ const nextConfig: NextConfig = {
         hostname: "raw.githubusercontent.com",
         port: "",
         pathname: "/**",
-      }
+      },
+      {
+        protocol: "https",
+        hostname: "play-lh.googleusercontent.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
   },
 };
