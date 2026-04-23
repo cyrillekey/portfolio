@@ -90,5 +90,43 @@
             "https://play-lh.googleusercontent.com/Y4WyTI8TrQ-M7NnKxB8DGE9JJfuDpmRhy5vzp1Z03aAJlZV56uJmeoYlvOWHj6_up9g=w1052-h592-rw",
             "https://play-lh.googleusercontent.com/jC-KuUCzVSGxf0wo0cd_biEb8gPvfV4g1PvhnJNBApRB4qjkinvY363sLkj9FxESGw=w1052-h592-rw"
         ]
+    },
+    {
+        "title": "Laundry Lane App",
+        "category": "Launrdy Management",
+        "tech": [
+            "Flutter",
+            "Firebase"
+        ],
+        "id": "laundry-lane",
+        "summary": "Easily book and track your laundry orders.",
+        "features": [
+            "Order Management",
+            "Order Tracking",
+            "Customer Support",
+            "Online Payment"
+        ],
+        "github": "https://github.com/cyrillekey/Laundry-Lane-Mobile",
+        "type": "personal",
+        "thumbnail": "https://res.cloudinary.com/ddia14anf/image/upload/v1776944883/laundry-lane.png",
+        "objective": "To provide a convenient and efficient solution for users to book and track their laundry orders.",
+        "tags": [
+            "mobile"
+        ],
+        "description": "A mobile application that allows users to book and track their laundry orders. It includes features such as order management, order tracking, customer support, and online payment. The application relies on a custom backend built using Fastify and Firebase for data storage and authentication.",
+        "gradient": "from-amber-100 to-amber-200",
+        "link": "",
+        "screenshots": [
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_01.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_02.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_03.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_05.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_06.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_08.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_11.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_12.png",
+            "https://raw.githubusercontent.com/cyrillekey/Laundry-Lane-Mobile/main/flutter_13.png"
+        ],
+        "video": "https://youtube.com/embed/rkvNDM5LyBI"
     }
 ]

@@ -136,8 +136,8 @@ export default async function ProjectDetail({ params }: Props) {
                       key={i}
                       className="aspect-video rounded-lg overflow-hidden bg-foreground/5"
                     >
-                      <img
-                        src={screenshot}
+                      <Image
+                        src={{ src: screenshot, height: 1920, width: 1080 }}
                         alt={`Screenshot ${i + 1}`}
                         className="w-full h-full object-cover"
                       />
