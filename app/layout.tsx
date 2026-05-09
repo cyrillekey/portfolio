@@ -5,6 +5,7 @@ import { Header } from "./components/Header";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import Script from "next/script";
 const cormorant = Cormorant_Garamond({
   variable: "--font-display",
   subsets: ["latin"],
@@ -41,6 +42,20 @@ export default function RootLayout({
           {children}
         </body>
       </ThemeProvider>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-XQDCKKE8WH"
+        async={true}
+      />
+      <Script
+        id="google-analytics"
+        dangerouslySetInnerHTML={{
+          __html: `window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-XQDCKKE8WH');`,
+        }}
+      />
     </html>
   );
 }
